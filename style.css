@@ -1,0 +1,289 @@
+
+
+body {
+    margin: 0%;
+    font-family: 'Poppins';
+    
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(200, 192, 192);
+    position: relative;
+
+}
+
+#circle {
+    width: 90%;
+    border-radius: 50%;
+    position: absolute;
+    right: -16%;
+    top: -105%;
+    z-index: 0;
+    overflow: hidden;
+    background: #6fb14b;
+
+
+}
+
+#circle #img{
+    margin-top:72% ;
+    z-index: -2;
+    margin-left: 22%;
+}
+ #img2{
+    top: 60%;
+    left: 65%;
+    width: 160px;
+    z-index: 5;
+    position: absolute;
+}
+.header nav{
+    width: 95%;
+    position: absolute;
+    margin-top: 30px;
+    z-index: 2;
+}
+.header nav>ul{
+    list-style: none;
+}
+
+#logo{
+    overflow: hidden;
+    background: url('images/streetdownload__5_-removebg-preview.png') no-repeat 0 -35px ;
+    background-size: 85%;
+    width: 200px;
+    height: 100px;
+    margin-top: -30px;
+}
+.header nav>ul>li{
+    text-align: center;
+    float: left;
+    margin-left:4%;
+    outline: none;
+}
+.header nav>ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+#text_banner{
+    margin-top: 200px;
+    margin-left: 5%;
+}
+
+
+#text_banner h1{
+    color: #6fb14b;
+}
+#text_banner h1>span{
+    color: rgb(192, 125, 1);
+}
+#text_banner p{
+    max-width:300px;
+}
+#text_banner button{
+    border-radius: 10px;
+    outline: none;
+    height: 40px;
+    padding: 0 20px 0  20px ;
+    border: none;
+    background: #6fb14b;
+    color: white;
+}
+.info-section {
+    text-align: center;
+    margin: auto;
+    height: 600px;
+    width: 55%;
+}
+.row-1 {
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+.row-1 #text{
+    margin: auto 10px;
+}
+.row-1 h2{
+    color: #EAAB1B;
+    font-size: 30px;
+}
+
+
+/* Menu section */
+
+
+.menu-section {
+    min-height: 400px;
+    text-align: center;
+    width: 80%;
+    background-color: rgb(200, 192, 192); 
+    margin: auto;
+    padding: 20px 0;
+}
+
+.section-title {
+    font-size: 30px;
+}
+.section-title span {
+    color: #6fb14b;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    display: flex;
+    height: 100px;
+    width: 300px;
+    margin: 10px;
+    
+}
+.menu-info {
+    background-color: azure;
+}
+.menu-info h2 {
+font-size: 15px;
+}
+.menu-info p {
+    font-size: 10px;
+    }
+
+
+/* Hot Deals Section */
+
+.deal-section {
+    min-height: 600px;
+    text-align: center;
+    width: 80%;
+    background-color: #C9ECB5;
+    margin: auto;
+    padding: 20px 0;
+    
+}
+
+.hot-deals {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    flex-wrap: wrap;
+    
+}
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hot-deals h1{
+    font-size: 36px;
+    text-align: left;
+    color: #6CB840;
+    margin: 0%;
+}
+.col-1 h2 {
+    text-align: left;
+    margin: 0%;
+}
+.col-1 p {
+    text-align: center;
+    margin-right: 30px;
+}
+
+/* Contact Us Section */
+
+.contact-section {
+    min-height: 300px;
+    text-align: center;
+    width: 80%;
+    background-color:  #FFD77C;
+    margin: auto;
+    padding: 20px 0;   
+}
+.contact {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact input {
+    height: 40px;
+    width: 40%;
+    margin: 20px 0;
+    border:  #FFD77C;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.contact button {
+    height: 40px;
+    margin-top: 30px;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: #6CB840;
+    background-color: #6CB840;
+
+}
+
+.blank {
+    height: 50px;
+    width: 80%;
+}
+
+.footer-section {
+    background-color: #C9ECB5;
+    min-height: 250px;
+    width: 80%;
+    margin: auto;
+}
+.footer {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.col-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#address {
+    margin-left: 10px;
+}
+.line {
+    height: 100px;
+    border-left: 3px dashed #6CB840;
+    margin: 0 10px;
+   
+}
+#icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+#icons button{
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: #6CB840;
+    background-color: #6CB840;
+
+}
